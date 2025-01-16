@@ -1,0 +1,195 @@
+.container-fluid {
+  width: 1280px !important;
+  margin: 0 auto;
+}
+
+/* navbar css */
+.navbab-wrapper .navbar {
+  height: 80px;
+  padding: 0;
+  z-index: 999;
+}
+
+.navbab-wrapper.active {
+  background: #fff;
+  box-shadow: 0 2px 6px #0000001a;
+  position: fixed;
+  top: 0;
+  transition: .4s ease-in-out;
+  width: 100%;
+  z-index: 999;
+}
+
+.navbar-menu .navbar-nav .nav-item .nav-link.active,
+.navbar-menu .navbar-nav .nav-item .nav-link:hover {
+  color: var(--bs-primary-600);
+  position: relative;
+}
+
+.navbar-menu .navbar-nav .nav-item .nav-link {
+  color: var(--bs-neutral-900);
+  font-weight: 400;
+  padding: 8px;
+}
+
+.sidebar-overlay {
+  display: none;
+}
+
+/* navbar css */
+
+.main-content {
+  min-height: calc(100vh - 138px);
+  padding-top: 24px;
+}
+
+.footer {
+  padding: 24px 0 14px 0;
+}
+
+.skill-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--bs-neutral-100);
+  padding: 10px;
+}
+
+.home-banner {
+  background: linear-gradient(256.24deg, rgba(255, 195, 152, 0.2) 26.56%, rgba(255, 234, 190, 0.3) 100%);
+}
+
+.z-index-10 {
+  z-index: 10;
+}
+
+.animate-heading {
+  h1 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+
+  .Typewriter {
+    color: var(--bs-primary-500);
+    font-weight: 600;
+  }
+}
+
+.proffessional-skills {
+  margin-top: 104px;
+
+  .section-title {
+    margin-bottom: -58px;
+  }
+}
+
+.my-service {
+  margin-top: 104px;
+}
+
+.service-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 24px;
+}
+
+.service-grid-item {
+  padding: 50px 30px;
+  border: 1px solid #ffe2d1;
+  border-radius: 6px;
+  transition: all 0.3s;
+}
+
+.service-grid-item:hover {
+  background-color: var(--bs-primary-50);
+  border: 1px solid transparent;
+}
+
+.footer {
+  margin-top: 80px;
+}
+
+.home-contact {
+  margin-top: 104px;
+}
+
+.home-contact {
+  .row.mt-5 {
+    margin-right: -14px;
+    margin-left: -14px;
+
+    .col-12 {
+      padding: 0 14px;
+    }
+
+  }
+}
+
+.contact-info {
+  a {
+    font-size: 16px;
+    /* font-weight: 500; */
+    color: var(--bs-neutral-500);
+
+    .icon {
+      width: 32px;
+      height: 32px;
+    }
+  }
+}
+
+.home-banner .social-media {
+  position: absolute;
+  right: 24px;
+
+  .icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+
+    img {
+      border-radius: 50%;
+    }
+  }
+}
+
+.about-resume-page .progressbar {
+  box-shadow: none;
+  margin-bottom: 15px;
+}
+
+.contact-cta {
+  margin-top: 104px;
+}
+
+.cta-container {
+  background-image: url(./assets/conactCtaBg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation-name: MoveBg;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  background-position: center center;
+  padding: 85px 30%;
+  border-radius: 10px;
+}
+
+@keyframes MoveBg {
+  0% {
+    background-position: center top;
+  }
+
+  25% {
+    background-position: right center;
+  }
+
+  50% {
+    background-position: center bottom;
+  }
+
+  75% {
+    background-position: left center;
+  }
+
+}
