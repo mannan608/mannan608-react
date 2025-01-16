@@ -13,7 +13,6 @@ import TypingText from "../components/TypingText";
 import Git from "../assets/git.svg"
 import LinkEdin from "../assets/linkedin.svg"
 import Facebook from "../assets/fb.svg"
-import ContactForm from "../components/contact/ContactForm";
 import { Link } from "react-router-dom";
 
 
@@ -178,16 +177,6 @@ const Home = () => {
                 </div>
             </section>
 
-            {/* <section className="home-contact">
-                <div className="container-fluid">
-                    <div className="section-title d-flex align-items-center justify-content-center flex-column gap-2">
-                        <h2>My Contact</h2>
-                        <p className="w-75 text-center"> I want to hear from you</p>
-                    </div>
-                    <ContactForm />
-                </div>
-            </section> */}
-
             <section className="contact-cta">
                 <div className="container">
                     <div className="row">
@@ -212,7 +201,6 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-
 
         </>
     )
