@@ -85,7 +85,7 @@ const Home = () => {
                             <div className="row" key={i}>
                                 <div className="col-md-6 pe-4">
                                     <div className="image">
-                                        <AnimationSkill animationPath={FrontendDev} />
+                                        {/* <AnimationSkill animationPath={FrontendDev} /> */}
                                     </div>
                                 </div>
                                 <div className="col-md-6">
