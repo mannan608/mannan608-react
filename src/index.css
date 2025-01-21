@@ -349,3 +349,31 @@
     fill: var(--bs-primary-500);
   }
 }
+
+.CircularProgressbar .CircularProgressbar-text {
+  fill: var(--bs-primary-500) !important;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+  stroke: var(--bs-primary-500) !important;
+  stroke-linecap: round;
+  -webkit-transition: stroke-dashoffset 0.5s ease 0s;
+  transition: stroke-dashoffset 0.5s ease 0s;
+}
+
+
+
+.progress-wrapper .circle-progress-bar {
+  width: 94px;
+  /* height: 84px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.professional-experience .skills-item {
+  border-top: 1px solid var(--bs-neutral-300);
+  padding-top: 14px;
+}
