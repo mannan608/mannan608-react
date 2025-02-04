@@ -379,7 +379,83 @@ const About = () => {
                             </div>
                         </TabPanel>
                         <TabPanel>
-                            <h4>Education</h4>
+                            <div className=" mt-5 section-heading d-flex align-items-center flex-column"><p>Education</p><h2 className="mt-1">Education and Certificates</h2></div>
+                            <div className="education-traning mt-4">
+                                <div className="row">
+                                    <div className="col-6 pe-4">
+                                        <div className="education">
+                                            <ul className="timeline">
+                                                <li>
+                                                    <div className="title">2018</div>
+                                                    <div className="details">
+                                                        <h5>B.S.c in Software Engineering </h5>
+                                                        <small className="fg-theme">
+                                                            Daffodil International University
+                                                        </small>
+                                                        <div className="d-flex justify-content-between align-items-center">
+                                                            <p>Dhaka Education Board</p>
+                                                            <a href="education_details.html">Details</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div className="title">2013</div>
+                                                    <div className="details">
+                                                        <h5>Higher Secondary School Certificate</h5>
+                                                        <small className="fg-theme">Chatmohar College</small>
+                                                        <div className="d-flex justify-content-between align-items-center">
+                                                            <p>Rajshahi Education Board</p>
+                                                            <a href="education_details.html">Details</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div className="title">2011</div>
+                                                    <div className="details">
+                                                        <h5>Secondary School Certificate</h5>
+                                                        <small className="fg-theme">Mohela B L High School</small>
+                                                        <div className="d-flex justify-content-between align-items-center">
+                                                            <p>Rajshahi Education Board</p>
+                                                            <a href="education_details.html">Details</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div className="col-6 ps-4">
+                                        <div className="training">
+                                            <ul className="timeline">
+                                                <li>
+                                                    <div className="title">2017</div>
+                                                    <div className="details">
+                                                        <h5>Web Design &amp; Development</h5>
+                                                        <small className="fg-theme">Nebulas IT</small>
+                                                        <p>https://nebulas-it.com</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div className="title">2017</div>
+                                                    <div className="details">
+                                                        <h5>Intern (Web Designer &amp; Developer)</h5>
+                                                        <small className="fg-theme">Nebulas IT</small>
+                                                        <p>https://nebulas-it.com</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div className="title">2016</div>
+                                                    <div className="details">
+                                                        <h5>Web Design &amp; Development</h5>
+                                                        <small className="fg-theme">BITM</small>
+                                                        <p>http://www.bitm.org.bd/</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </TabPanel>
                     </Tabs>
                 </div>
