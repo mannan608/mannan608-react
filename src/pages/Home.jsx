@@ -13,7 +13,9 @@ import TypingText from "../components/TypingText";
 import Git from "../assets/git.svg"
 import LinkEdin from "../assets/linkedin.svg"
 import Facebook from "../assets/fb.svg"
+import Knowledge from "../assets/knowledge.svg"
 import { Link } from "react-router-dom";
+
 
 
 const Home = () => {
@@ -83,9 +85,10 @@ const Home = () => {
                     {
                         skillsSection.data.map((item, i) => (
                             <div className="row" key={i}>
-                                <div className="col-md-6 pe-4">
+                                <div className="col-md-6 pe-4 d-flex justify-content-center">
                                     <div className="image">
                                         {/* <AnimationSkill animationPath={FrontendDev} /> */}
+                                        <img src={Knowledge} alt="i do" />
                                     </div>
                                 </div>
                                 <div className="col-md-6">

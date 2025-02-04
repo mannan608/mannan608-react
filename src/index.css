@@ -79,7 +79,11 @@
   margin-top: 104px;
 
   .section-title {
-    margin-bottom: -58px;
+    margin-bottom: 24px;
+  }
+
+  .image {
+    width: 75%;
   }
 }
 
