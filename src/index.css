@@ -233,6 +233,12 @@
 
 .resume {
   margin-top: 80px;
+  background: #fff3ea;
+  padding: 48px 0;
+}
+
+.education_cirtificate {
+  margin-top: 80px;
 }
 
 .key-skill-wrapper {
@@ -322,7 +328,7 @@
   .icon {
     width: 64px;
     height: 64px;
-    border: 1px solid var(--bs-neutral-300);
+    border: 1px solid var(--bs-primary-500);
     border-radius: 50%;
     padding: 10px;
 
@@ -368,7 +374,7 @@
 
 
 .progress-wrapper .circle-progress-bar {
-  width: 94px;
+  width: 104px;
   /* height: 84px; */
   display: flex;
   align-items: center;
