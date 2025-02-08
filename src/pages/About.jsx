@@ -198,7 +198,7 @@ const About = () => {
               <p>Experiences</p>
               <h3 className="mt-1">Professional Experiences </h3>
             </div>
-            <div className="row  mt-4">
+            <div className="row  mt-5">
               <div className="col-sm-12">
                 <div className="experience d-flex flex-column  gap-4">
                   <div className="resume-content d-flex gap-3">
@@ -269,12 +269,12 @@ const About = () => {
 
       <section className="education_cirtificate">
         <div className="container-fluid">
-          <div className="education-traning text-center">
-            <div className="section-heading">
+          <div className="education-traning ">
+            <div className="section-heading text-center">
               <p>Education</p>
               <h3 className="mt-1">Education and Certificates </h3>
             </div>
-            <div className="row mt-4">
+            <div className="row mt-5">
               <div className="col-6 pe-4">
                 <div className="education">
                   <ul className="timeline">
