@@ -1,4 +1,4 @@
-import React from 'react'
+import g_img from '../assets/portfolioOne.png'
 
 const ProjectDetails = () => {
     return (
@@ -26,8 +26,6 @@ const ProjectDetails = () => {
                                     <li>MongoDB</li>
                                 </ul>
                             </div>
-                        </div>
-                        <div className="col-md-6">
                             <div className="project-features">
                                 <h4>Key Features</h4>
                                 <ul>
@@ -37,6 +35,31 @@ const ProjectDetails = () => {
                                     <li>Sales and purchase order management</li>
                                     <li>Data visualization and reporting</li>
                                 </ul>
+                            </div>
+                        </div>
+                        <div className="col-md-6">
+                            <div className="projects-image">
+                                <div className="main-image">
+                                    <img src={g_img} alt="inventory" />
+                                </div>
+                                <div className="gallary-img d-flex gap-3 mt-3">
+                                    <div className="g-image">
+                                        <img src={g_img} alt="inventory" />
+                                    </div>
+                                    <div className="g-image">
+                                        <img src={g_img} alt="inventory" />
+                                    </div>
+                                    <div className="g-image">
+                                        <img src={g_img} alt="inventory" />
+                                    </div>
+                                    <div className="g-image">
+                                        <img src={g_img} alt="inventory" />
+                                    </div>
+                                    <div className="g-image">
+                                        <img src={g_img} alt="inventory" />
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -494,7 +494,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(210, 115, 68, 0.7);
+  background: rgba(210, 115, 68, 0.7);
   color: var(--bs-white);
   padding: 15px;
   overflow: hidden;
@@ -506,6 +506,8 @@
     background: var(--bs-white);
     border-radius: 4px;
     color: var(--bs-black);
+    height: 100%;
+    width: 100%;
 
     a {
       color: var(--bs-primary-500);
@@ -519,4 +521,12 @@
   opacity: 1;
   transition: opacity 0.2s ease-in-out;
 
+}
+
+.gallary-img {
+  .g-image {
+    width: 84px;
+    height: 84px;
+    cursor: pointer;
+  }
 }
