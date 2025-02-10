@@ -85,7 +85,7 @@ const Home = () => {
                     {
                         skillsSection.data.map((item, i) => (
                             <div className="row" key={i}>
-                                <div className="col-md-6 pe-4 d-flex justify-content-center">
+                                <div className="col-md-6 d-flex justify-content-center">
                                     <div className="image">
                                         {/* <AnimationSkill animationPath={FrontendDev} /> */}
                                         <img src={Knowledge} alt="i do" />
