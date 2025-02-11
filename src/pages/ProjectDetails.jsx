@@ -1,6 +1,14 @@
+import { useState } from 'react'
 import g_img from '../assets/portfolioOne.png'
 
+import projects from '../data/projects'
+
 const ProjectDetails = () => {
+    const [gallary, setGallary] = useState(projects[0]?.images[0])
+
+
+    console.log(gallary)
+
     return (
         <div className='projects'>
             <div className="container-fluid">
@@ -40,24 +48,14 @@ const ProjectDetails = () => {
                         <div className="col-md-6">
                             <div className="projects-image">
                                 <div className="main-image">
-                                    <img src={g_img} alt="inventory" />
+                                    <img src={gallary} alt="inventory" />
                                 </div>
                                 <div className="gallary-img d-flex gap-3 mt-3">
-                                    <div className="g-image">
-                                        <img src={g_img} alt="inventory" />
-                                    </div>
-                                    <div className="g-image">
-                                        <img src={g_img} alt="inventory" />
-                                    </div>
-                                    <div className="g-image">
-                                        <img src={g_img} alt="inventory" />
-                                    </div>
-                                    <div className="g-image">
-                                        <img src={g_img} alt="inventory" />
-                                    </div>
-                                    <div className="g-image">
-                                        <img src={g_img} alt="inventory" />
-                                    </div>
+                                    {projects.flatMap((project) => project.images).map((item, index) => (
+                                        <div key={index} className="g-image" onClick={() => setGallary(item)}>
+                                            <img src={item} alt="gallery" />
+                                        </div>
+                                    ))}
 
                                 </div>
                             </div>
