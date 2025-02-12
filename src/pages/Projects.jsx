@@ -23,7 +23,7 @@ const Projects = () => {
                                         <div className="title d-flex justify-content-between align-items-center">
                                             <h4>Inventory Management System</h4>
                                             <div className="d-flex gap-3">
-                                                <Link to="#" className='font-16 fw-500 text-primary'>GitHub</Link> | <Link to="#" className='font-16 fw-500 text-primary'>Live</Link>  | <Link to="#" className='font-16 fw-500 text-primary'>Details</Link>
+                                                <Link to="#" className='font-16 fw-500 text-primary'>GitHub</Link> | <Link to="#" className='font-16 fw-500 text-primary'>Live</Link>  | <Link to={`/project/${1}`} className='font-16 fw-500 text-primary'>Details</Link>
                                             </div>
                                         </div>
                                         <p className='font-12'>Steadfast Courier Ltd.</p>
