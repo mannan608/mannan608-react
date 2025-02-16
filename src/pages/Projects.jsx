@@ -1,8 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import p_1 from '../assets/portfolioOne.png'
+import { Link, useNavigate } from 'react-router-dom'
+import data from "../data/projects"
 
 const Projects = () => {
+    const navigate = useNavigate();
     return (
         <div className='projects'>
             <div className="container-fluid">
@@ -15,35 +16,46 @@ const Projects = () => {
                     </div>
 
                     <div className="row portfolios mt-5">
-                        <div className="col-md-6">
-                            <div className="portfolio">
-                                <img src={p_1} alt="" />
-                                <div className="overlay">
-                                    <div className="content">
-                                        <div className="title d-flex justify-content-between align-items-center">
-                                            <h4>Inventory Management System</h4>
-                                            <div className="d-flex gap-3">
-                                                <Link to="#" className='font-16 fw-500 text-primary'>GitHub</Link> | <Link to="#" className='font-16 fw-500 text-primary'>Live</Link>  | <Link to={`/project/${1}`} className='font-16 fw-500 text-primary'>Details</Link>
+                        {
+                            data.map((item) => {
+                                return (
+                                    <div className="col-md-4" key={item.id}>
+                                        <div className="portfolio">
+                                            <img src={item.images[0]} alt="" className='cover-image' />
+                                            <div className="overlay">
+                                                <div className="content position-relative">
+                                                    <div className="title d-flex justify-content-between align-items-center gap-2">
+                                                        <h4>{item.name}</h4>
+                                                        <div className="d-flex gap-3">
+                                                            <span className="font-16 fw-500 text-primary cursor-pointer" onClick={() => item.githubLink ? window.open(item.githubLink, '_blank') : navigate('/not-found')}>GitHub</span>
+                                                            |  <span className="font-16 fw-500 text-primary cursor-pointer" onClick={() => item.liveLink ? window.open(item.liveLink, '_blank') : navigate('/not-found')}>Live</span>
+                                                            | <Link to={`/project/${item.id}`} className='font-16 fw-500 text-primary'>Details</Link>
+                                                        </div>
+                                                    </div>
+
+                                                    <div className="mt-3">
+                                                        <h5 className='mb-2'> Tools & Technologies</h5>
+                                                        <div className=" d-flex flex-column gap-1">
+                                                            <p><span className='text-black fw-500'>Web Technologies :</span> {item.technology.web_technology.join(", ")}</p>
+                                                            <p><span className='text-black fw-500'>Design Technologies:</span> {item.technology.design_technology.join(", ")}</p>
+                                                            <p><span className='text-black fw-500'>Other Technologies:</span> {item.technology.others.join(", ")}</p>
+                                                            <p><span className='text-black fw-500'>Backend :</span>{item.technology.backend_technology.join(", ")}</p>
+                                                            <p><span className='text-black fw-500'>Database :</span>{item.database}</p>
+                                                        </div>
+                                                    </div>
+
+                                                    <div className="noted">
+                                                        <p><span className='fw-500'>Notes:</span> {item.Notes}</p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <p className='font-12'>Steadfast Courier Ltd.</p>
-                                        <div className="mt-2">
-                                            <h6 className='mb-1'> Frontend Technologies</h6>
-                                            <p># React.js,Redux Toolkit,Redux RTK,JavaScript, HTML, Bootstrap, CSS.</p>
-
-                                            <h6 className='mt-2 mb-1'>  Backend Technologies</h6>
-                                            <p># PHP (Laravel) for backend development.</p>
-
-                                            <h6 className='mt-2 mb-1'>Database</h6>
-                                            <p># MySQL</p>
-                                            <h6 className='mt-2 mb-1'>Other Tools</h6>
-                                            <p> # Axios/Fetch ,# Chart.js/Apex Chart,# Postman</p>
-
-                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
+                                )
+                            })
+                        }
+
+
 
                     </div>
                 </div>

@@ -52,6 +52,11 @@ const Header = () => {
                                     About Me
                                 </NavLink>
                             </li>
+                            <li className="nav-item">
+                                <NavLink className="nav-link" aria-current="page" to="/rnd-process">
+                                    R&D Process
+                                </NavLink>
+                            </li>
 
                             <li className="nav-item">
                                 <NavLink

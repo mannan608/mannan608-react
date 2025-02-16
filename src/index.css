@@ -473,13 +473,13 @@
   row-gap: 24px;
 }
 
-.portfolios .col-md-6 {
+.portfolios .col-md-4 {
   padding: 0 12px;
 }
 
 .portfolios .portfolio {
   overflow: hidden;
-  /* cursor: pointer; */
+  cursor: pointer;
   position: relative;
   transition: opacity 0.2s ease-in-out;
 
@@ -503,6 +503,7 @@
   border: 1px solid var(--bs-neutral-300);
 
   .content {
+
     padding: 4px 8px;
     background: var(--bs-white);
     border-radius: 4px;
@@ -517,6 +518,16 @@
     .font-12 {
       margin-top: -4px;
     }
+
+    .title {
+      flex-direction: column-reverse;
+    }
+
+    .noted {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
   }
 }
 
@@ -528,7 +539,7 @@
 
 }
 
-.gallary-img {
+.gallery-img {
   .g-image {
     width: 84px;
     height: 84px;
@@ -540,4 +551,10 @@
   padding: 24px;
   min-height: 160px;
   background: var(--bs-primary-50);
+}
+
+.portfolio {
+  .cover-image {
+    height: auto;
+  }
 }

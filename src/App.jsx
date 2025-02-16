@@ -8,6 +8,8 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from "./pages/Contact";
 import ProjectDetails from "./pages/ProjectDetails";
+import RndProcess from "./pages/RndProcess";
+import NotFound from "./pages/NotFound";
 
 function App() {
 
@@ -18,9 +20,11 @@ function App() {
           <Route element={<Layout />}>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="/rnd-process" element={<RndProcess />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/hire" element={<Contact />} />
             <Route path="/project/:id" element={<ProjectDetails />} />
+            <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
       </Router>
