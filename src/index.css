@@ -479,7 +479,7 @@
 
 .portfolios .portfolio {
   overflow: hidden;
-  cursor: pointer;
+  /* cursor: pointer; */
   position: relative;
   transition: opacity 0.2s ease-in-out;
 

@@ -36,12 +36,17 @@ const Projects = () => {
                                                     <div className="mt-3">
                                                         <h5 className='mb-2'> Tools & Technologies</h5>
                                                         <div className=" d-flex flex-column gap-1">
-                                                            <p><span className='text-black fw-500'>Web Technologies :</span> {item.technology.web_technology.join(", ")}</p>
-                                                            <p><span className='text-black fw-500'>Design Technologies:</span> {item.technology.design_technology.join(", ")}</p>
-                                                            <p><span className='text-black fw-500'>Other Technologies:</span> {item.technology.others.join(", ")}</p>
-                                                            <p><span className='text-black fw-500'>Backend :</span>{item.technology.backend_technology.join(", ")}</p>
-                                                            <p><span className='text-black fw-500'>Database :</span>{item.database}</p>
+                                                            <p className='font-14'><span className='text-black fw-500'>Web Technologies : </span> {item.technology.web_technology.join(", ")}</p>
+                                                            <p className='font-14'><span className='text-black fw-500'>Design Technologies : </span> {item.technology.design_technology.join(", ")}</p>
+                                                            <p className='font-14'><span className='text-black fw-500'>Backend : </span>{item.technology.backend_technology.join(", ")}</p>
+                                                            <p className='font-14'><span className='text-black fw-500'>Database : </span>{item.database}</p>
+                                                            <p className='font-14'><span className='text-black fw-500'>Other Technologies :</span> {item.technology.others.join(", ")}</p>
+                                                            <p className='font-14'><span className='text-black fw-500'>Other Tools :</span> {item.technology.others_tools.join(", ")}</p>
                                                         </div>
+                                                    </div>
+
+                                                    <div className="mt-3">
+                                                        <h5>My Contribution :{item.contribution || 0}% </h5>
                                                     </div>
 
                                                     <div className="noted">
