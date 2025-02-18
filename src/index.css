@@ -473,7 +473,7 @@
   row-gap: 24px;
 }
 
-.portfolios .col-md-4 {
+.portfolios .col-md-6 {
   padding: 0 12px;
 }
 
@@ -482,7 +482,11 @@
   /* cursor: pointer; */
   position: relative;
   transition: opacity 0.2s ease-in-out;
+  /* height: 430px; */
 
+  .cover-image {
+    border-radius: 4px;
+  }
 }
 
 .portfolio .overlay {

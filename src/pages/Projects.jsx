@@ -19,9 +19,9 @@ const Projects = () => {
                         {
                             data.map((item) => {
                                 return (
-                                    <div className="col-md-4" key={item.id}>
+                                    <div className="col-md-6" key={item.id}>
                                         <div className="portfolio">
-                                            <img src={item.images[0]} alt="" className='cover-image' />
+                                            <img src={item.thumbnail} alt="admin" className="cover-image" />
                                             <div className="overlay">
                                                 <div className="content position-relative">
                                                     <div className="title d-flex justify-content-between align-items-center gap-2">
