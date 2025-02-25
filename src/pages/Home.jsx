@@ -42,12 +42,14 @@ const Home = () => {
                                         I have 3+ years of experience as a front-end developer and designer. I am seeking opportunities to contribute creativity and technical expertise to a dynamic development team.
                                     </p>
 
-                                    <a
-                                        className="btn btn-primary btn-md anchorBtn w-f-c mt-4"
-                                        href="resume.html"
-                                    >
-                                        <span className="z-1 position-relative">Download Resume</span>
-                                    </a>
+                                    <div className="download-btn">
+                                        <a
+                                            className="btn btn-primary btn-md anchorBtn w-f-c mt-4"
+                                            href="resume.html"
+                                        >
+                                            <span className="z-1 position-relative">Download Resume</span>
+                                        </a>
+                                    </div>
                                 </div>
                                 <div className="col-12 col-lg-6 col-xl-5 text-center position-relative">
                                     <img src={hero} alt="banner-image" />

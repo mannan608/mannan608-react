@@ -413,7 +413,7 @@ const projects = [
             "I contributed to the documentation and knowledge sharing within the team, facilitating smooth onboarding and collaboration."
         ],
         "liveLink": "https://maynooth-mu.vercel.app/",
-        "githubLink": "",
+        "githubLink": "https://github.com/mannan608/mynooth",
         "Notes": "N/A",
 
     },
