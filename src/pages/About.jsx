@@ -1,13 +1,8 @@
-import CountUp from "react-countup";
+
 import Hero from "../assets/hero.png";
 import knowledge from "../assets/about-vct.svg";
-import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import SFCICON from "../assets/favicon.ico";
-import WEBASE from "../assets/webase.png";
 import UDDOKTA from "../assets/uddoktagiri.jpg";
-import { skillsSection } from "../data/data";
-import { Icon } from "@iconify/react/dist/iconify.js";
-import { Tooltip } from "react-tooltip";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import Circle from "../components/progress/Circle";

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import data from "../data/projects"
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Projects = () => {
     const navigate = useNavigate();
@@ -30,7 +31,11 @@ const Projects = () => {
                                                 </div>
                                             </div>
                                             <div className="portfolio">
-                                                <img src={item.thumbnail} alt="admin" className="cover-image" />
+                                                {/* <img src={item.thumbnail} alt="admin" className="cover-image" /> */}
+                                                <LazyLoadImage
+                                                    alt="Image description"
+                                                    src={item.thumbnail}
+                                                />
                                                 <div className="overlay">
                                                     <div className="content position-relative">
                                                         < >

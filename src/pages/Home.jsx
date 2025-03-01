@@ -1,8 +1,4 @@
 import { Icon } from "@iconify/react";
-
-import AnimationSkill from "../components/icons/animation-icons/AnimationSkill"
-import FrontendDev from "../components/icons/animation-icons/skills.json"
-
 import { skillsSection } from "../data/data"
 import { Tooltip } from "react-tooltip";
 import hero from "../assets/hero.png"
