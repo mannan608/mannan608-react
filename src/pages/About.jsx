@@ -9,14 +9,17 @@ import Circle from "../components/progress/Circle";
 import { Link } from "react-router-dom";
 
 const About = () => {
-  const percentage = 66;
+  const javapercentage = 80;
+  const reactpercentage = 70;
+  const wordpercentage = 90;
+  const btpercentage = 100;
   return (
     <>
       <section className="about-me">
         <div className="container-fluid">
           <div className="about-wrapper">
             <div className="row align-items-center">
-              <div className="col-12 col-lg-6">
+              <div className="col-12">
                 <div className="about-content">
                   <div className="section-heading">
                     <p>About Me</p>
@@ -45,32 +48,32 @@ const About = () => {
                         <div className="circle-progress-bar">
                           <Circle label="JavaScript">
                             <CircularProgressbar
-                              value={percentage}
-                              text={`${percentage}%`}
+                              value={javapercentage}
+                              text={`${javapercentage}%`}
                             />
                           </Circle>
                         </div>
                         <div className="circle-progress-bar">
                           <Circle label="React.js/Next.js">
                             <CircularProgressbar
-                              value={percentage}
-                              text={`${percentage}%`}
+                              value={reactpercentage}
+                              text={`${reactpercentage}%`}
                             />
                           </Circle>
                         </div>
                         <div className="circle-progress-bar">
                           <Circle label="WordPress">
                             <CircularProgressbar
-                              value={percentage}
-                              text={`${percentage}%`}
+                              value={wordpercentage}
+                              text={`${wordpercentage}%`}
                             />
                           </Circle>
                         </div>
                         <div className="circle-progress-bar">
-                          <Circle label="HTML / CSS">
+                          <Circle label="Bootstrap / Tailwind">
                             <CircularProgressbar
-                              value={percentage}
-                              text={`${percentage}%`}
+                              value={btpercentage}
+                              text={`${btpercentage}%`}
                             />
                           </Circle>
                         </div>
@@ -79,9 +82,9 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-12 col-lg-6">
+              {/* <div className="col-12 col-lg-6">
                 <img src={Hero} alt="hero" />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -234,7 +237,7 @@ const About = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="resume-content d-flex gap-3">
+                  {/* <div className="resume-content d-flex gap-3">
                     <div className="icon">
                       <img
                         src={WEBASE}
@@ -254,7 +257,7 @@ const About = () => {
                         <p className="font-14"> 04/2020 - 02/2021</p>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

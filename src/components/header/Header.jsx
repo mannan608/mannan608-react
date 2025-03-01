@@ -57,7 +57,7 @@ const Header = () => {
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link" aria-current="page" to="/rnd-process">
-                                    Project R&D
+                                    R & D Process
                                 </NavLink>
                             </li>
 
