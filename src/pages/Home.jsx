@@ -11,6 +11,7 @@ import LinkEdin from "../assets/linkedin.svg"
 import Facebook from "../assets/fb.svg"
 import Knowledge from "../assets/knowledge.svg"
 import { Link } from "react-router-dom";
+import resume from "../assets/courier-admin/Resume_of_Abdul_Mannan.pdf"
 
 
 
@@ -41,9 +42,9 @@ const Home = () => {
                                     <div className="download-btn">
                                         <a
                                             className="btn btn-primary btn-md anchorBtn w-f-c mt-4"
-                                            href="resume.html"
+                                            href={resume} download="Resume_of_Abdul_Mannan"
                                         >
-                                            <span className="z-1 position-relative">Download Resume</span>
+                                            Download Resume
                                         </a>
                                     </div>
                                 </div>

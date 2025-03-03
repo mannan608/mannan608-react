@@ -3,6 +3,7 @@ import Mail from "../../assets/mail.svg"
 import LinkEdin from "../../assets/linkedin.svg"
 import WhatApp from "../../assets/whatsapp.svg"
 import Facebook from "../../assets/fb.svg"
+import { Link } from "react-router-dom"
 
 const ContactForm = () => {
     return (
@@ -67,38 +68,38 @@ const ContactForm = () => {
                 <div className="col-12 col-md-4">
                     <div className="contact-info d-flex flex-column gap-3">
 
-                        <a href="#" className="d-flex align-items-center gap-2">
+                        <Link to="#" className="d-flex align-items-center gap-2">
                             <div className="icon">
                                 <img src={Phone} alt="cell" />
                             </div>
                             01315565037 | 01926248496
-                        </a>
-                        <a href="" className="d-flex align-items-center gap-2">
+                        </Link>
+                        <Link to="#" className="d-flex align-items-center gap-2">
                             <div className="icon">
                                 <img src={WhatApp} alt="WhatApp" />
                             </div>
                             01315565037
-                        </a>
-                        <a href="#" className="d-flex align-items-center gap-2">
+                        </Link>
+                        <Link to="#" className="d-flex align-items-center gap-2">
                             <div className="icon">
                                 <img src={Mail} alt="mail" />
                             </div>
                             mannanswe608@gmail.com
-                        </a>
+                        </Link>
                         <div className="social-media d-flex gap-3 flex-wrap mt-2">
 
-                            <a href="" className="d-flex align-items-center gap-2">
+                            <Link to="https://www.facebook.com/mannan.45/" className="d-flex align-items-center gap-2">
                                 <div className="icon">
                                     <img src={Facebook} alt="facebook" />
                                 </div>
                                 Facebook
-                            </a>
-                            <a href="" className="d-flex align-items-center gap-2">
+                            </Link>
+                            <Link to="https://www.linkedin.com/in/mannan608/" className="d-flex align-items-center gap-2">
                                 <div className="icon">
                                     <img src={LinkEdin} alt="" />
                                 </div>
                                 Linkedin
-                            </a>
+                            </Link>
                         </div>
 
                     </div>

@@ -17,7 +17,7 @@ const About = () => {
     <>
       <section className="about-me">
         <div className="container-fluid">
-          <div className="about-wrapper">
+          <div className="about-wrapper mt-5">
             <div className="row align-items-center">
               <div className="col-12">
                 <div className="about-content">
@@ -40,7 +40,7 @@ const About = () => {
                     combination of creativity and technical expertise.
                   </p>
                 </div>
-                <div className="skill-wrapper mt-4">
+                {/* <div className="skill-wrapper mt-4">
                   <div className="skill w-100">
                     <h5 className="section-title">Professional performance</h5>
                     <div className="skill d-flex flex-column gap-2 mt-3">
@@ -80,7 +80,7 @@ const About = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
               {/* <div className="col-12 col-lg-6">
                 <img src={Hero} alt="hero" />
@@ -131,18 +131,7 @@ const About = () => {
                     <div className="skill-content">
                       <ul className="d-flex flex-column gap-1">
                         <li>
-                          <p>Design Tools: Photoshop, Adobe XD, and Figma.</p>
-                        </li>
-                        <li>
                           <p>
-                            {" "}
-                            Programming: PHP (Object-Oriented Programming, basic
-                            knowledge of the Laravel framework).
-                          </p>
-                        </li>
-                        <li>
-                          <p>
-                            {" "}
                             Web Technologies: JavaScript, React.js, Next.js,
                             jQuery, and REST APIs.
                           </p>
@@ -151,6 +140,16 @@ const About = () => {
                           <p>
                             Design Technologies: HTML, CSS, Bootstrap, and
                             Tailwind CSS.
+                          </p>
+                        </li>
+                        <li>
+                          <p>Design Tools: Photoshop, Adobe XD, and Figma.</p>
+                        </li>
+                        <li>
+                          <p>
+
+                            Programming: PHP (Object-Oriented Programming, basic
+                            knowledge of the Laravel framework).
                           </p>
                         </li>
                         <li>
