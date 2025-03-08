@@ -9,11 +9,28 @@ const ProjectDetails = () => {
     const { id } = useParams();
     const project = data.find((item) => item.id === parseInt(id));
     const [gallery, setGallery] = useState(project?.images?.[0]);
-
+    const [showModal, setShowModal] = useState(false);
+    const [currentIndex, setCurrentIndex] = useState(0);
 
     if (!project) return <h2>Project Not Found</h2>;
 
+    const handleShowModal = (index) => {
+        setCurrentIndex(index);
+        setGallery(project.images[index]);
+        setShowModal(true);
+    };
 
+    const handleNext = () => {
+        const newIndex = (currentIndex + 1) % project.images.length;
+        setCurrentIndex(newIndex);
+        setGallery(project.images[newIndex]);
+    };
+
+    const handlePrev = () => {
+        const newIndex = (currentIndex - 1 + project.images.length) % project.images.length;
+        setCurrentIndex(newIndex);
+        setGallery(project.images[newIndex]);
+    };
 
 
     return (
@@ -43,7 +60,7 @@ const ProjectDetails = () => {
                                     <ul>
                                         {
                                             project.contribute.map((item, index) => (
-                                                <li key={index} className='font-16'>{item}</li>
+                                                <li key={index} className='font-16'><p>{item}</p></li>
                                             ))
                                         }
                                     </ul>
@@ -57,7 +74,7 @@ const ProjectDetails = () => {
                                     <ul>
                                         {
                                             project.key_features.map((item, index) => (
-                                                <li key={index}>{item}</li>
+                                                <li key={index}><p>{item}</p></li>
                                             ))
                                         }
                                     </ul>
@@ -67,9 +84,11 @@ const ProjectDetails = () => {
                         </div>
                         <div className="col-md-6 ps-5">
                             <div className="projects-image w-75">
-                                <div className="main-image">
+                                <div className="main-image" onClick={() => handleShowModal(currentIndex)}>
                                     <img src={gallery} alt="inventory" />
                                 </div>
+
+                                {/* Thumbnail Gallery */}
                                 <div className="gallery-img d-flex gap-3 mt-3">
                                     {project.images?.map((img, index) => (
                                         <div key={index} className="g-image" onClick={() => setGallery(img)}>
@@ -77,6 +96,8 @@ const ProjectDetails = () => {
                                         </div>
                                     ))}
                                 </div>
+
+
                             </div>
                         </div>
                     </div>

@@ -67,7 +67,7 @@ const Home = () => {
                             <img src={Facebook} alt="facebook" />
                         </div>
                     </a>
-                    <a href="https://www.linkedin.com/in/md-abdul-mannan-b2963429b/" className="d-flex align-items-center gap-2">
+                    <a href="https://www.linkedin.com/in/mannan608" className="d-flex align-items-center gap-2">
                         <div className="icon">
                             <img src={LinkEdin} alt="LinkEdin" />
                         </div>

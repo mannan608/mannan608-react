@@ -93,11 +93,10 @@ const RndProcess = () => {
                                     <p>Problem : API response was slow when fetching thousands of data.</p>
                                 </div>
                                 <div className="solution mt-1">
-                                    <p className='text-black fw-500'>Solution :</p>
                                     <ul>
-                                        <li><p>Implement pagination, search, and filters.</p></li>
-                                        <li><p>react-table</p></li>
-                                        <li><p>Implement server-side pagination</p></li>
+                                        <li><p> <span className='text-black fw-500'>Solution : </span> Implement pagination, search, and filters.</p></li>
+                                        <li><p> <span className='text-black fw-500'>Solution : </span> react-table</p></li>
+                                        <li><p> <span className='text-black fw-500'>Solution : </span> Implement server-side pagination</p></li>
                                     </ul>
                                 </div>
 
@@ -106,10 +105,9 @@ const RndProcess = () => {
                                     <p>Problem : Admin should have full control, but staff should only view</p>
                                 </div>
                                 <div className="solution mt-1">
-                                    <p className='text-black fw-500'>Solution :</p>
                                     <ul>
-                                        <li><p>Use JWT with role-based permissions in ProtectedRoute.js</p></li>
-                                        <li><p>Protect routes by wrapping them with ProtectedRoute role="admin"</p></li>
+                                        <li><p><span className='text-black fw-500'>Solution : </span> Use JWT with role-based permissions in ProtectedRoute.js</p></li>
+                                        <li><p> <span className='text-black fw-500'>Solution : </span> Protect routes by wrapping them with ProtectedRoute role="admin"</p></li>
                                     </ul>
                                 </div>
                                 <h6 className='mt-2'>Synchronizing Frontend & Backend Validation</h6>
@@ -117,10 +115,9 @@ const RndProcess = () => {
                                     <p>Problem : Some errors were handled only on the backend.</p>
                                 </div>
                                 <div className="solution mt-1">
-                                    <p className='text-black fw-500'>Solution :</p>
                                     <ul>
                                         <li>
-                                            <p>Use Yup + Formik / React Hook Form for unified validation.</p>
+                                            <p> <span className='text-black fw-500'>Solution : </span> Use Yup + Formik / React Hook Form for unified validation.</p>
                                         </li>
                                     </ul>
                                 </div>
