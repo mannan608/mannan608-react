@@ -2,6 +2,7 @@ import { useState } from 'react'
 
 import data from '../data/projects'
 import { useParams } from 'react-router-dom'
+import ImagePreviewModal from '../components/ImagePreviewModal';
 
 
 const ProjectDetails = () => {
@@ -91,7 +92,7 @@ const ProjectDetails = () => {
                                 {/* Thumbnail Gallery */}
                                 <div className="gallery-img d-flex gap-3 mt-3">
                                     {project.images?.map((img, index) => (
-                                        <div key={index} className="g-image" onClick={() => setGallery(img)}>
+                                        <div key={index} className={`g-image ${img === gallery ? "active" : ""}`} onClick={() => setGallery(img)}>
                                             <img src={img} alt="Gallery" className="img-thumbnail" />
                                         </div>
                                     ))}
@@ -101,6 +102,17 @@ const ProjectDetails = () => {
                             </div>
                         </div>
                     </div>
+                    {
+                        showModal && (
+                            <ImagePreviewModal
+                                images={project.images}
+                                currentIndex={currentIndex}
+                                onClose={() => setShowModal(false)}
+                                onNext={handleNext}
+                                onPrev={handlePrev}
+                            />
+                        )
+                    }
                 </div>
             </div>
         </div>
