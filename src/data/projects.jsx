@@ -1,12 +1,8 @@
 import courierAdmin from "../assets/steadfast_admin.png";
 import algorithm from "../assets/algorithm.png";
 import bangladrop from "../assets/bangladrop.png";
-import biggapon from "../assets/biggapon.png";
-import fashionable from "../assets/fashionable.png";
 import fastpower from "../assets/fastpower.png";
-import inonic_style from "../assets/inonic_style.png";
 import inventory from "../assets/inventory.png";
-import maynooth from "../assets/maynooth.png";
 import steadfast_merchant from "../assets/steadfast_merchant.png";
 import c_admin_dashboard from "../assets/courier-admin/dashboadr.png";
 import chat from "../assets/courier-admin/chat-application.png";
@@ -216,18 +212,16 @@ const projects = [
         "database": "",
         "thumbnail": algorithm,
         "key_features": [
-            "Modern & Responsive Design – Built with HTML, CSS, Bootstrap, ensuring a seamless experience on all devices.",
-            "Homepage with Hero Section – Engaging introduction with a visually appealing banner and call-to-action.",
-            "Services Section – Showcasing the company's services with descriptions, icons, and animations.",
+            "Responsive Design: Adapts seamlessly to all devices — desktop, tablet, and mobile.",
+            "Engaging Hero Section: Eye-catching banners or sliders with key messaging and a call to action.",
+            "About Us: Detailed company overview, mission, vision, and values.",
             "Portfolio/Gallery – Displaying past projects with interactive sliders and filters.",
             "Meet the Team Section – Featuring team members with names, roles, and social media links.",
-            "Contact Form with API Integration – Functional contact form sending messages directly to the company.",
+            "Contact Information: Contact form, location map, and social media links for easy communication.",
             "Google Maps Integration – Embedded Google Maps for easy location access.",
             "SEO Optimization – Meta tags, schema markup, and keyword optimization for better search rankings.",
-            "Lazy Loading & Code Splitting – Improved performance by loading components only when needed.",
-            "Fast Loading & Optimized Performance – Minimized CSS, JavaScript, and images for quick load times.",
-            "Testimonials & Client Feedback – Displaying customer reviews in a dynamic, auto-scrolling section.",
-            "Blog/News Section – Optional blog section for company updates and industry insights."
+            "Fast Loading Speed: Optimized for quick loading to enhance user experience.",
+            "Secure and Accessible: Ensures data protection and accessibility for all users.",
         ],
         "images": [
             "https://placehold.co/600",
@@ -237,16 +231,15 @@ const projects = [
             "https://placehold.co/604",
         ],
         "contribute": [
-            "Frontend Development – Built the UI using HTML, CSS, Bootstrap, ensuring a smooth user experience.",
-            "Homepage & Navigation Design – Designed a modern, visually appealing homepage with an interactive layout.",
-            "Portfolio & Services Sections – Developed dynamic sections to showcase projects and services effectively.",
-            "Contact Form Integration – Implemented a working contact form connected to an API or email service.",
+            "Design and Implementation: Developing responsive and visually appealing layouts using HTML, CSS, and Bootstrap.",
+            "Interactive Features: Implementing animations and interactivity with JavaScript to engage users",
+            "Cross-Browser Compatibility: Ensuring consistent performance across various browsers.",
+            "Optimization: Optimizing website performance for fast loading and improved SEO.",
             "SEO Optimization – Improved SEO structure with meta tags, alt attributes, and schema markup.",
-            "Performance Enhancements – Used lazy loading and code splitting for faster page load times.",
-            "Mobile-Friendly & Responsive UI – Ensured cross-browser compatibility and a seamless mobile experience.",
-            "Animations & Visual Effects – Enhanced UX with animations, hover effects, and smooth transitions.",
-            "Google Maps & Social Media Links – Integrated Google Maps and social media icons for better engagement.",
-            "Testing & Debugging – Conducted thorough UI testing to fix any issues before deployment."
+            "Responsive Design: Making the website adaptive to different screen sizes and devices.",
+            "Code Quality: Writing clean, maintainable, and reusable code following best practices.",
+            "Testing and Debugging: Identifying and fixing any issues related to layout, responsiveness, or performance.",
+            "Collaboration: Working with designers or stakeholders to understand requirements and deliver the desired output."
         ],
         "liveLink": "https://algorithm-two.vercel.app/",
         "githubLink": "https://github.com/mannan608/algorithm",
@@ -268,16 +261,20 @@ const projects = [
         "database": "MySQL",
         "thumbnail": bangladrop,
         "key_features": [
-            "User-Friendly UI – Clean and responsive design for seamless navigation.",
-            "Product Listing & Categories – Displaying products dynamically with search and filtering options.",
-            "Automated Order Processing – Orders are forwarded directly to suppliers for fulfillment.",
-            "Secure Checkout System – Integrated payment gateways for smooth transactions.",
-            "Real-Time Inventory Management – Stock updates directly from suppliers.",
-            "Wishlist & Cart System – Users can add products to wishlist or shopping cart for easy purchase.",
-            "Customer Accounts & Order Tracking – Users can track their order status in real-time.",
-            "Mobile-Responsive Design – Ensures seamless experience on desktops, tablets, and mobile devices.",
-            "CSS Animations & UI Enhancements – Smooth transitions and interactive elements for better UX.",
-            "SEO & Performance Optimization – Faster load times with optimized code and structured meta tags."
+            "User-Friendly Interface: Clean and intuitive navigation for a seamless shopping experience.",
+            "Product Catalog: Organized product categories with high-quality images, descriptions, and pricing.",
+            "Search and Filtering: Advanced search options and filters to quickly find products.",
+            "Shopping Cart: Easy-to-use cart with real-time updates and a clear summary of selected items.",
+            "Secure Checkout: Safe and smooth checkout process with multiple payment gateways.",
+            "Order Tracking: Ability for customers to track their orders after purchase.",
+            "Customer Reviews: Product ratings and reviews to build trust and credibility.",
+            "Responsive Design: Optimized for all devices — desktops, tablets, and mobile phones.",
+            "Animation and Visuals: Interactive animations for enhanced user engagement.",
+            "Sales and Discounts: Display of promotional offers, discounts, and coupon codes.",
+            "User Authentication: Login and registration system for personalized shopping experiences.",
+            "Contact and Support: Accessible contact form, live chat, and customer support options.",
+            "SEO and Speed Optimization: Optimized for search engines and fast page loading.",
+            "Wishlist and Favorites: Option for users to save products for future purchases.",
         ],
         "images": [
             "https://placehold.co/600",
@@ -287,15 +284,16 @@ const projects = [
             "https://placehold.co/604",
         ],
         "contribute": [
-            "Frontend Development – Designed and developed the entire UI using HTML, CSS, Bootstrap, and JavaScript.",
-            "Navigation & Layout Design – Created an intuitive layout with a seamless shopping experience.",
-            "Product Page & Filtering System – Implemented product display with sorting and category filtering.",
-            "Form Validations & Security – Used JavaScript validation for secure checkout and registration.",
-            "CSS Animations & UI Enhancements – Added smooth animations, hover effects, and transitions for better interactivity.",
-            "Responsive Design – Ensured cross-browser compatibility and mobile responsiveness.",
-            "Optimization & Performance – Minimized CSS & JavaScript files for faster load times.",
-            "Cart & Wishlist Functionality – Built shopping cart and wishlist features to enhance user experience.",
-            "Testing & Debugging – Fixed layout issues and optimized JavaScript performance for smooth functionality."
+            "Design and Layout: Creating responsive and visually appealing layouts using HTML, CSS, and Bootstrap.",
+            "Interactive Elements: Implementing animations and interactive features using JavaScript to enhance user experience.",
+            "Responsive Design: Ensuring the website is optimized for all devices, including mobile, tablet, and desktop.",
+            "Navigation and Usability: Building intuitive navigation and a user-friendly interface for easy product discovery.",
+            "Product Display: Designing effective product listing pages with clear images, descriptions, and pricing.",
+            "Optimization: Ensuring fast page load times, optimizing images, and minimizing code for better performance.",
+            "Cross-Browser Compatibility: Making sure the website functions smoothly across different browsers.",
+            "Testing and Debugging: Identifying and fixing issues related to design, functionality, and performance.",
+            "Collaboration: Working closely with designers, backend developers, and stakeholders to implement required features.",
+            "SEO-Friendly Code: Writing clean, semantic HTML to improve search engine visibility."
         ],
         "liveLink": "https://bangladrop.com/",
         "githubLink": "",

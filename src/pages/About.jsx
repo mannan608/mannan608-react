@@ -1,18 +1,15 @@
 
-import Hero from "../assets/hero.png";
 import knowledge from "../assets/about-vct.svg";
 import SFCICON from "../assets/favicon.ico";
 import UDDOKTA from "../assets/uddoktagiri.jpg";
-import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
-import Circle from "../components/progress/Circle";
 import { Link } from "react-router-dom";
 
 const About = () => {
-  const javapercentage = 80;
-  const reactpercentage = 70;
-  const wordpercentage = 90;
-  const btpercentage = 100;
+  // const javapercentage = 80;
+  // const reactpercentage = 70;
+  // const wordpercentage = 90;
+  // const btpercentage = 100;
   return (
     <>
       <section className="about-me">
