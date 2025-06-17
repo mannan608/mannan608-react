@@ -1,4 +1,3 @@
-
 import knowledge from "../assets/about-vct.svg";
 import SFCICON from "../assets/favicon.ico";
 import UDDOKTA from "../assets/uddoktagiri.jpg";
@@ -27,7 +26,7 @@ const About = () => {
                   <p className="mt-1">
                     I am a skilled front-end developer, with over{" "}
                     <span className="font-16 fw-500 text-primary">
-                      3+ years
+                      4+ years
                     </span>{" "}
                     of experience in building responsive, user-friendly web
                     interfaces. I am an expert in transforming designs into
@@ -144,7 +143,6 @@ const About = () => {
                         </li>
                         <li>
                           <p>
-
                             Programming: PHP (Object-Oriented Programming, basic
                             knowledge of the Laravel framework).
                           </p>
@@ -206,7 +204,7 @@ const About = () => {
                     <div className="content d-flex flex-column gap-2 justify-content-between pt-2 pb-2">
                       <div className="d-flex align-items-center justify-content-between gap-2">
                         <h5>Steadfast Courier Ltd.</h5>
-                        <h6 className="text-muted">2+ Year</h6>
+                        <h6 className="text-muted">3+ Year</h6>
                       </div>
                       <div className="d-flex align-items-center justify-content-between gap-2">
                         <h6 className="text-muted">Frontend Developer</h6>
