@@ -26,7 +26,7 @@ const About = () => {
                   <p className="mt-1">
                     I am a skilled front-end developer, with over{" "}
                     <span className="font-16 fw-500 text-primary">
-                      4+ years
+                      3+ years
                     </span>{" "}
                     of experience in building responsive, user-friendly web
                     interfaces. I am an expert in transforming designs into

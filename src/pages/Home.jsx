@@ -35,10 +35,11 @@ const Home = () => {
                     </h1>
                   </div>
                   <p>
-                    I have 4+ years of experience as a front-end developer and
-                    designer. I am seeking opportunities to contribute
-                    creativity and technical expertise to a dynamic development
-                    team.
+                    Creative Frontend Developer with 3+ years of experience
+                    building fast, accessible UIs using React.js, Next.js, and
+                    modern frontend tools. Skilled in crafting clean, responsive
+                    interfaces with a focus on performance, usability, and
+                    maintainable code.
                   </p>
 
                   <div className="download-btn">
